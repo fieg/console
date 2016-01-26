@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+use Console\Application;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$app = new Application(new \Kernel());
+$app->run();
